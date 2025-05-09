@@ -1,0 +1,351 @@
+﻿namespace TDMAutomate
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox pathTextBox;
+        private System.Windows.Forms.Button browseButton;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox envComboBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox userNameTextBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox passwordTextBox;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox tdmRunTextBox;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox carryOnTestCaseComboBox;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox dbPasswordTextBox;
+        private System.Windows.Forms.TextBox retriesTextBox;
+        private System.Windows.Forms.Button updateButton;
+
+        private void InitializeComponent()
+        {
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pathTextBox = new System.Windows.Forms.TextBox();
+            this.browseButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.envComboBox = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.userNameTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tdmRunTextBox = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.carryOnTestCaseComboBox = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.dbPasswordTextBox = new System.Windows.Forms.TextBox();
+            this.retriesTextBox = new System.Windows.Forms.TextBox();
+            this.updateButton = new System.Windows.Forms.Button();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Location = new System.Drawing.Point(21, 31);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(828, 424);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.pathTextBox);
+            this.tabPage1.Controls.Add(this.browseButton);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.envComboBox);
+            this.tabPage1.Controls.Add(this.label3);
+            this.tabPage1.Controls.Add(this.userNameTextBox);
+            this.tabPage1.Controls.Add(this.label4);
+            this.tabPage1.Controls.Add(this.passwordTextBox);
+            this.tabPage1.Controls.Add(this.label5);
+            this.tabPage1.Controls.Add(this.tdmRunTextBox);
+            this.tabPage1.Controls.Add(this.label6);
+            this.tabPage1.Controls.Add(this.carryOnTestCaseComboBox);
+            this.tabPage1.Controls.Add(this.label7);
+            this.tabPage1.Controls.Add(this.label8);
+            this.tabPage1.Controls.Add(this.dbPasswordTextBox);
+            this.tabPage1.Controls.Add(this.retriesTextBox);
+            this.tabPage1.Controls.Add(this.updateButton);
+            this.tabPage1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Size = new System.Drawing.Size(820, 398);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(238, 40);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 13);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Config Folder:";
+            // 
+            // pathTextBox
+            // 
+            this.pathTextBox.Location = new System.Drawing.Point(344, 36);
+            this.pathTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pathTextBox.Name = "pathTextBox";
+            this.pathTextBox.Size = new System.Drawing.Size(168, 20);
+            this.pathTextBox.TabIndex = 17;
+            // 
+            // browseButton
+            // 
+            this.browseButton.Location = new System.Drawing.Point(538, 36);
+            this.browseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.browseButton.Name = "browseButton";
+            this.browseButton.Size = new System.Drawing.Size(74, 20);
+            this.browseButton.TabIndex = 18;
+            this.browseButton.Text = "Browse";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(235, 69);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Select Environment:";
+            // 
+            // envComboBox
+            // 
+            this.envComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.envComboBox.Items.AddRange(new object[] {
+            "DEV",
+            "CIT",
+            "SIT",
+            "SITMIG",
+            "REL",
+            "UAT",
+            "NFT",
+            "PRE",
+            "DEV12",
+            "DEV13",
+            "DEV14",
+            "DEV15",
+            "DEV18",
+            "DEV19",
+            "DEV20",
+            "DEV21",
+            "DEV22",
+            "DEV23",
+            "DEV25",
+            "DEV26",
+            "DEV27",
+            "DEV28",
+            "DEV29",
+            "DEV30",
+            "DEV31",
+            "DEV47",
+            "DEV48",
+            "DEV49",
+            "DEV50",
+            "PROD",
+            "DEVMIG1",
+            "DEVMIG2",
+            "DEVMIG3",
+            "DEVMIG4",
+            "DEVMIG5",
+            "DEVMIG6",
+            "DEVMIG7",
+            "DEVMIG8",
+            "DEVMIG9",
+            "DEVMIG10",
+            "DEVMIG11",
+            "DEVMIG12"});
+            this.envComboBox.Location = new System.Drawing.Point(344, 64);
+            this.envComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.envComboBox.Name = "envComboBox";
+            this.envComboBox.Size = new System.Drawing.Size(135, 21);
+            this.envComboBox.TabIndex = 20;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(244, 99);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "User Name:";
+            // 
+            // userNameTextBox
+            // 
+            this.userNameTextBox.Location = new System.Drawing.Point(344, 96);
+            this.userNameTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.userNameTextBox.Name = "userNameTextBox";
+            this.userNameTextBox.Size = new System.Drawing.Size(135, 20);
+            this.userNameTextBox.TabIndex = 22;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(244, 131);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(56, 13);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Password:";
+            // 
+            // passwordTextBox
+            // 
+            this.passwordTextBox.Location = new System.Drawing.Point(344, 127);
+            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(135, 20);
+            this.passwordTextBox.TabIndex = 24;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(244, 166);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 13);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "TDMRun:";
+            // 
+            // tdmRunTextBox
+            // 
+            this.tdmRunTextBox.Enabled = false;
+            this.tdmRunTextBox.Location = new System.Drawing.Point(344, 162);
+            this.tdmRunTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tdmRunTextBox.Name = "tdmRunTextBox";
+            this.tdmRunTextBox.Size = new System.Drawing.Size(68, 20);
+            this.tdmRunTextBox.TabIndex = 26;
+            this.tdmRunTextBox.Text = "TRUE";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(241, 204);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 13);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "CarryOnTestCase:";
+            // 
+            // carryOnTestCaseComboBox
+            // 
+            this.carryOnTestCaseComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.carryOnTestCaseComboBox.Enabled = false;
+            this.carryOnTestCaseComboBox.Items.AddRange(new object[] {
+            "TRUE",
+            "FALSE"});
+            this.carryOnTestCaseComboBox.Location = new System.Drawing.Point(344, 204);
+            this.carryOnTestCaseComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.carryOnTestCaseComboBox.Name = "carryOnTestCaseComboBox";
+            this.carryOnTestCaseComboBox.Size = new System.Drawing.Size(68, 21);
+            this.carryOnTestCaseComboBox.TabIndex = 28;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(241, 252);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 13);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Retries:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(241, 289);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(74, 13);
+            this.label8.TabIndex = 30;
+            this.label8.Text = "DB Password:";
+            // 
+            // dbPasswordTextBox
+            // 
+            this.dbPasswordTextBox.Location = new System.Drawing.Point(344, 285);
+            this.dbPasswordTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dbPasswordTextBox.Name = "dbPasswordTextBox";
+            this.dbPasswordTextBox.Size = new System.Drawing.Size(135, 20);
+            this.dbPasswordTextBox.TabIndex = 32;
+            // 
+            // retriesTextBox
+            // 
+            this.retriesTextBox.Enabled = false;
+            this.retriesTextBox.Location = new System.Drawing.Point(344, 248);
+            this.retriesTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.retriesTextBox.Name = "retriesTextBox";
+            this.retriesTextBox.Size = new System.Drawing.Size(68, 20);
+            this.retriesTextBox.TabIndex = 31;
+            this.retriesTextBox.Text = "6";
+            // 
+            // updateButton
+            // 
+            this.updateButton.Location = new System.Drawing.Point(344, 346);
+            this.updateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.updateButton.Name = "updateButton";
+            this.updateButton.Size = new System.Drawing.Size(108, 25);
+            this.updateButton.TabIndex = 33;
+            this.updateButton.Text = "Update Config";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(844, 456);
+            this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.ResumeLayout(false);
+            #endregion
+        }
+
+    }
+}
